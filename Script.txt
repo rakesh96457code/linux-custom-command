@@ -1,7 +1,3 @@
-#!/bin/bash
-
-# internsctl - Custom Linux command for intern operations
-
 # Function to display help
 display_help() {
     echo "Usage: internsctl [OPTIONS]"
@@ -34,7 +30,7 @@ get_cpu_info() {
     lscpu
 }
 
-# Function to get memory information
+# Function to get memory info
 get_memory_info() {
     free
 }
